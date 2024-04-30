@@ -3,9 +3,13 @@
   и их переопределение под различные устройства
 */
 :root {
-  --color-log: #DB00FF;
-  --accent-color: #FF0070;
-  --color-title: #000028;
-  --color-body: #000028;
-  --color-text: #F1B2CE;
+  --text-selected:#353430 ;
+  --marker-color:#FF8DCB ;
+  --logo-color: #FFC2E6;
+  --show-logo-color:#FF0070 ;
+  --text-color:#353430 ;
+  --title-color:#353430;
+  --button-color: #353430;
+  --color-body: #FFF1F7;
+  --background-img: url(../images/cover-image-light.png);
 }

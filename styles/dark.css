@@ -8,41 +8,15 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --color-log: #DB00FF;
-  --accent-color: #FF0070;
-  --color-title: #000028;
-  --color-body: #000028;
-  --color-text: #F1B2CE;
-  --background-img: url(../images/cover-image-dark.png);;
-}
-
-.theme_dark body {
-  background-color: var(--color-body);
-}
-
-.theme_dark .pag {
-  background-image: var( --background-img);
-}
-
-.theme_light .cover__title {
-  color: var(--color-log);
-}
-
-.theme_dark .cover__text {
-  color:var(--color-title);
-}
-
-.theme_dark h3 {
-  color:var(--accent-color) ;
-}
-
-.theme_dark h4 {
-  color: var(--color-title);
-  background-color: var(--accent-color);
-}
-
-.theme_dark p {
-  color: var(--color-text);
+  --text-selected:#000028 ;
+  --marker-color:#FF0070 ;
+  --logo-color:#DB00FF;
+  --shadow-color:#FF0070;
+  --text-color:#F1B2CE;
+  --title-color:#FF0070;
+  --decor-color:#FF0070 ;
+  --body-color: #000028;
+  --background-img: url(../images/cover-image-dark.png);
 }
 
 .theme_dark .decorated__span-tex{
@@ -50,15 +24,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-     --color-log: #DB00FF;
-     --accent-color: #FF0070;
-     --color-title: #000028;
-     --color-body: #000028;
-     --color-text: #F1B2CE;
-     --background-img: url(../images/cover-image-dark.png);;
+    --text-selected:#000028 ;
+    --marker-color:#FF0070 ;
+    --logo-color:#DB00FF;
+    --shadow-color:#FF0070;
+    --text-color:#F1B2CE;
+    --title-color:#FF0070;
+    --decor-color:#FF0070 ;
+    --body-color: #000028;
+    --background-img: url(../images/cover-image-dark.png);
    }
-
-  .theme_dark .cover__text {
-    color:var(--color-title);
-  }
 }
