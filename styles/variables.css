@@ -3,13 +3,13 @@
   и их переопределение под различные устройства
 */
 :root {
-  --text-selected:#353430 ;
-  --marker-color:#FF8DCB ;
-  --logo-color: #FFC2E6;
-  --show-logo-color:#FF0070 ;
-  --text-color:#353430 ;
-  --title-color:#353430;
-  --button-color: #353430;
-  --color-body: #FFF1F7;
-  --background-img: url(../images/cover-image-light.png);
+  --text-selected:#000028 ;
+  --marker-color:#FF0070 ;
+  --logo-color:#DB00FF;
+  --shadow-color:#FF0070;
+  --text-color:#F1B2CE;
+  --title-color:#FF0070;
+  --decor-color:#FF0070 ;
+  --body-color: #000028;
+  --background-img: url(../images/cover-image-dark.png);
 }
