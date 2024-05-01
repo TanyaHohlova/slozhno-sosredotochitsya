@@ -10,6 +10,7 @@
   --text-color:#F1B2CE;
   --title-color:#FF0070;
   --decor-color:#FF0070 ;
+  --decor-shower:255, 0, 112;
   --body-color: #000028;
   --background-img: url(../images/cover-image-dark.png);
 }
